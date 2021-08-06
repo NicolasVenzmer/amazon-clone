@@ -1,0 +1,20 @@
+.footer-arriba {
+  display: flex;
+  color: red;
+  background-color: #dc3545;
+  padding-top: 3em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.hr{
+    margin-top: 5px;
+    margin-left: 34px;
+    margin-right: 34px;
+}
+
+.p_Abajo {
+    margin-top: 10px;
+  margin-bottom: 20px;
+}

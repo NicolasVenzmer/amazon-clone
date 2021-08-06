@@ -1,0 +1,70 @@
+.header {
+  background-color: #131921;
+  display: flex; /*With this one i display the elements one by side of the other one.*/
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100; /*This says that nothing is coming over the nav when i go down the page.*/
+}
+
+.header_logo {
+  width: 100px;
+  object-fit: contain; /*With this the amazon logo will be always look te same.*/
+  margin-top: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.header_optionBasket {
+    display: flex;
+    align-items: center;
+}
+
+.header_basketCount {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header_search {
+  display: flex;
+  flex: 1; /*Use as much space as it needs*/
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header_optionLineOne {
+    font-size: 10px;
+}
+
+.header_optionLineTwo {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.header_link{
+    color: white;
+    text-decoration: none;
+}
+
+.header_searchInput{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.header_searchIcon {
+    padding: 5px;
+    height: 22px !important;
+  background-color: #cd9042;
+}

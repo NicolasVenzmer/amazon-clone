@@ -1,3 +1,7 @@
+# NPM Installs:
+# npm install / npm install react router-dom / npm install -g firebase-tools / npm install @material-ui/icons 
+# / npm install @material-ui/core / npm i react-currency-format
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
